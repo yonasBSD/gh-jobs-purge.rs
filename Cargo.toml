@@ -1,0 +1,19 @@
+[package]
+name = "gh-jobs-purge"
+version = "0.1.0"
+authors = ["test@example.com"]
+edition = "2024"
+license = "MIT"
+description = "Purge github jobs"
+repository = "https://github.com/yonasBSD/gh-jobs-purge.rs"
+readme = "README.md"
+keywords = ["github", "jobs"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+colored = "3.1"
+rayon = "1.11"
+anyhow = "1.0"
+chrono = "0.4"
+clap = { version = "4.5", features = ["derive"] }
